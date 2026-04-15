@@ -1,0 +1,14 @@
+# Ignore IDE folders
+.vscode/
+.idea/
+.vs/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# If node_modules were ever introduced
+node_modules/
+
+# Ignore the background archive which isn't used in production
+assets/archive/

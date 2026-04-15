@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!-- 
+  ==============================================
+  Project: Comic-Accurate Spider-Man Portfolio
+  Author: Shubham Shaw
+  Description: Custom built high-performance responsive portfolio.
+  ==============================================
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shubham Shaw | Comic Spider Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Comic fonts and legible body fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Space+Grotesk:wght@400;700&family=Outfit:wght@400;600&display=swap" rel="stylesheet">
+  <!-- FontAwesome for Spider Icon -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  
+  <!-- Procedural Web & THWIP Canvas -->
+  <canvas id="fx-canvas"></canvas>
+
+  <nav class="comic-nav section-fade">
+    <div class="logo">
+       <i class="fa-solid fa-spider icon-red"></i> Shubham Shaw's Portfolio
+    </div>
+    <ul class="nav-links">
+      <li><a href="#experience" class="hover-web">Experience</a></li>
+      <li><a href="#projects" class="hover-web">Projects</a></li>
+      <li><a href="#skills" class="hover-web">Skills</a></li>
+    </ul>
+  </nav>
+
+  <main class="content-wrapper">
+    <header id="hero" class="hero-section section-fade">
+      <img src="assets/img/author_profile.jpeg" alt="Spider-Man Graphic" class="hero-spidey-img">
+      <h1 class="hero-title comic-text">Shubham <span class="accent-red">Shaw</span></h1>
+      <p class="hero-tagline">Cloud Computing, IoT & Machine Learning Engineer</p>
+      
+      <div class="hero-contact">
+         <a href="mailto:shawshubham2006@gmail.com" class="contact-link hover-web">shawshubham2006@gmail.com</a>
+         <a href="https://github.com/ShubhamShaw2006" target="_blank" class="contact-link hover-web">GitHub</a>
+         <a href="https://linkedin.com/in/shawshubham" target="_blank" class="contact-link hover-web">LinkedIn</a>
+         <span class="contact-text">Kolkata, India</span>
+      </div>
+    </header>
+
+    <section id="experience" class="section-fade">
+      <h2 class="section-heading comic-text"><span class="accent-blue">I.</span> Experience</h2>
+      <div class="comic-panel hover-web">
+        <div class="card-header">
+          <h3>IEM Centre of Excellence for Cloud Computing & IoT</h3>
+          <span class="date-badge">Oct 2024 - Present</span>
+        </div>
+        <h4 class="role">Research Intern</h4>
+        <ul class="card-list">
+          <li>Architected and simulated drone routing models via One Simulator (ONE) to optimize DTN protocol performance.</li>
+          <li>Engineered automated Python pipelines (Seaborn/Matplotlib) for latency and overhead metric evaluations.</li>
+          <li>Experimented heavily with NVIDIA AGX Thor edge computing for ultra-low latency distributed systems.</li>
+          <li>Prototyped hardware automation loops using Arduino Nano sensors driven by Node-Red workflows.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="education" class="section-fade">
+       <h2 class="section-heading comic-text"><span class="accent-red">II.</span> Education</h2>
+       <div class="comic-panel hover-web">
+          <div class="card-header">
+             <h3>Institute of Engineering and Management</h3>
+             <span class="date-badge">Expected 2028</span>
+          </div>
+          <h4 class="role">Bachelor of Technology in Computer Science & Business Systems</h4>
+          <p class="coursework">Focus: Algorithms, Cloud Computing, Database Architectures & IoT Systems.</p>
+       </div>
+    </section>
+
+    <section id="projects" class="section-fade">
+      <h2 class="section-heading comic-text"><span class="accent-blue">III.</span> Technical Projects</h2>
+      <div class="grid-layout">
+        
+        <a href="#" class="comic-panel hover-web project-card">
+          <div class="project-indicator red"></div>
+          <h3>Truck Overloading Prevention</h3>
+          <span class="patent-badge"><i class="fa-solid fa-certificate"></i> Patent Applied</span>
+          <p>Innovated a hardware load-detection pipeline via Arduino Nano. Built high-accuracy real-time weight logic to prevent vehicle overload states.</p>
+        </a>
+
+        <a href="#" class="comic-panel hover-web project-card">
+          <div class="project-indicator blue"></div>
+          <h3>Hypervisor-Level Malware Detection</h3>
+          <p>Trained a robust Random Forest ensemble evaluating BODMAS PE features. Built reproducible Scikit-Learn pipelines achieving 96–99% classification accuracy.</p>
+        </a>
+
+        <a href="#" class="comic-panel hover-web project-card">
+          <div class="project-indicator red"></div>
+          <h3>AI-Driven IPL Match Forecasting</h3>
+          <p>Modeled predictive success of cricket teams via historical datasets. Integrated explainable AI layers to decode structural match advantages cleanly.</p>
+        </a>
+      </div>
+    </section>
+
+    <section id="skills" class="section-fade">
+      <h2 class="section-heading comic-text"><span class="accent-red">IV.</span> Core Skills</h2>
+      <div class="skills-container">
+        
+        <div class="comic-panel hover-web skill-category">
+           <h4>Languages</h4>
+           <div class="pill-group">
+             <span class="pill">Python</span><span class="pill">Java</span><span class="pill">C</span><span class="pill">MATLAB</span>
+           </div>
+        </div>
+
+        <div class="comic-panel hover-web skill-category">
+           <h4>Libraries</h4>
+           <div class="pill-group">
+             <span class="pill">Scikit-Learn</span><span class="pill">Seaborn</span><span class="pill">Matplotlib</span>
+           </div>
+        </div>
+
+        <div class="comic-panel hover-web skill-category">
+           <h4>Tools & Frameworks</h4>
+           <div class="pill-group">
+             <span class="pill">NVIDIA AGX Thor</span><span class="pill">Node-Red</span><span class="pill">Arduino</span><span class="pill">Linux</span><span class="pill">Git</span>
+           </div>
+        </div>
+
+      </div>
+    </section>
+    
+    <div class="bottom-split">
+      <section id="certifications" class="section-fade half-section">
+        <h2 class="section-heading sm comic-text">Certifications</h2>
+        <ul class="clean-list comic-panel hover-web">
+          <li>DSA – IIT Kharagpur</li>
+          <li>Advanced System Security – Univ. of Colorado</li>
+          <li>Python Engineering – Google</li>
+          <li>IoT Essentials – Smart Tech</li>
+        </ul>
+      </section>
+
+      <section id="leadership" class="section-fade half-section">
+        <h2 class="section-heading sm comic-text">Leadership</h2>
+        <div class="comic-panel hover-web">
+          <h4>Secretary – IETE ISF (IEM)</h4>
+          <p>Coordinating robust technical events and managing the organization's official digital presence and outreach.</p>
+        </div>
+      </section>
+    </div>
+
+    <footer class="footer section-fade">
+      <p>Architected By Shubham Shaw</p>
+    </footer>
+
+  </main>
+
+  <div class="web-instruction">
+    <i class="fa-solid fa-circle-info"></i> <strong>Pro Tip:</strong> Click & Drag anywhere to shoot Spider Webs!
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
