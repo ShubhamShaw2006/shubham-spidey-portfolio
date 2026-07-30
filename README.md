@@ -20,7 +20,7 @@ This robust project is deliberately kept lightweight, relying on front-end brows
 3. \`assets/js/script.js\` - The engine! Handles the Drag-and-Drop canvas rendering, GSAP integrations, and mobile touch mappings.
 4. \`assets/img/author_profile.jpeg\` - Your main central Hero Graphic portrait.
 5. \`assets/img/portfolio_background.png\` - The cheerful daytime NYC Skyline illustration driving the background aesthetics.
-6. \`assets/docs/ShubhamShaw_resume_26.pdf\` - Centralized directory for downloadable CV documents.
+6. \`assets/docs/shawshubhamV1.pdf\` - Centralized directory for downloadable CV documents.
 
 ## How to Run
 
