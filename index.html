@@ -7,44 +7,63 @@
   ==============================================
 -->
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shubham Shaw | Comic Spider Portfolio</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🕷️</text></svg>">
+  <title>Shubham Shaw | Data Engineering & AI Portfolio</title>
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🕷️</text></svg>">
   <link rel="stylesheet" href="assets/css/style.css">
   <!-- Comic fonts and legible body fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Space+Grotesk:wght@400;700&family=Outfit:wght@400;600&display=swap" rel="stylesheet">
-  <!-- FontAwesome for Spider Icon -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bangers&family=Space+Grotesk:wght@400;700&family=Outfit:wght@400;600&display=swap"
+    rel="stylesheet">
+  <!-- FontAwesome for Spider & Tech Icons -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 </head>
+
 <body>
-  
+
   <!-- Procedural Web & THWIP Canvas -->
   <canvas id="fx-canvas"></canvas>
 
   <nav class="comic-nav section-fade">
     <div class="logo">
-       <i class="fa-solid fa-spider icon-red"></i> Shubham Shaw's Portfolio
+      <i class="fa-solid fa-spider icon-red"></i> Shubham Shaw
     </div>
     <ul class="nav-links">
       <li><a href="#experience" class="hover-web">Experience</a></li>
+      <li><a href="#education" class="hover-web">Education</a></li>
       <li><a href="#projects" class="hover-web">Projects</a></li>
       <li><a href="#skills" class="hover-web">Skills</a></li>
+      <li><a href="#certifications" class="hover-web">Certifications</a></li>
     </ul>
   </nav>
 
   <main class="content-wrapper">
     <header id="hero" class="hero-section section-fade">
-      <img src="assets/img/author_profile.jpeg" alt="Spider-Man Graphic" class="hero-spidey-img">
+      <img src="assets/img/author_profile.jpeg" alt="Shubham Shaw Profile" class="hero-spidey-img">
       <h1 class="hero-title comic-text">Shubham <span class="accent-red">Shaw</span></h1>
-      <p class="hero-tagline">Cloud Computing, IoT & Machine Learning Engineer</p>
-      
+      <p class="hero-tagline">Data Analyst | Data Engineering | Applied Machine Learning</p>
+
+      <p class="hero-objective">
+        Third-year CS student with hands-on experience across the data stack — from SQL-based pipelines and BI
+        dashboards to applied machine learning. Seeking Data Analyst, Data Engineering, or AI/ML internship roles to
+        build reliable, insight-driven data systems.
+      </p>
+
       <div class="hero-contact">
-         <a href="mailto:shawshubham2006@gmail.com" class="contact-link hover-web">shawshubham2006@gmail.com</a>
-         <a href="https://github.com/ShubhamShaw2006" target="_blank" class="contact-link hover-web">GitHub</a>
-         <a href="https://www.linkedin.com/in/shaw-shubham" target="_blank" class="contact-link hover-web">LinkedIn</a>
-         <span class="contact-text">Kolkata, India</span>
+        <a href="mailto:shawshubham2006@gmail.com" class="contact-link hover-web"><i class="fa-solid fa-envelope"></i>
+          shawshubham2006@gmail.com</a>
+        <a href="tel:9330345998" class="contact-link hover-web"><i class="fa-solid fa-phone"></i> +91 9330345998</a>
+        <a href="https://github.com/ShubhamShaw2006" target="_blank" class="contact-link hover-web"><i
+            class="fa-brands fa-github"></i> GitHub</a>
+        <a href="https://www.linkedin.com/in/shaw-shubham" target="_blank" class="contact-link hover-web"><i
+            class="fa-brands fa-linkedin"></i> LinkedIn</a>
+        <a href="assets/docs/shawshubhamV1.pdf" target="_blank" class="contact-link hover-web resume-btn"><i
+            class="fa-solid fa-file-pdf"></i> Resume PDF</a>
+        <span class="contact-text"><i class="fa-solid fa-location-dot"></i> Kolkata, West Bengal, India</span>
       </div>
     </header>
 
@@ -53,105 +72,210 @@
       <div class="comic-panel hover-web">
         <div class="card-header">
           <h3>IEM Centre of Excellence for Cloud Computing & IoT</h3>
-          <span class="date-badge">Oct 2024 - Present</span>
+          <span class="date-badge">Oct 2024 – Jul 2025</span>
         </div>
-        <h4 class="role">Research Intern</h4>
+        <h4 class="role"><i class="fa-solid fa-briefcase"></i> Intern &bull; Kolkata, India</h4>
         <ul class="card-list">
-          <li>Architected and simulated drone routing models via One Simulator (ONE) to optimize DTN protocol performance.</li>
-          <li>Engineered automated Python pipelines (Seaborn/Matplotlib) for latency and overhead metric evaluations.</li>
-          <li>Experimented heavily with NVIDIA AGX Thor edge computing for ultra-low latency distributed systems.</li>
-          <li>Prototyped hardware automation loops using Arduino Nano sensors driven by Node-Red workflows.</li>
+          <li>Built Python data analysis pipelines using Seaborn and Matplotlib to visualize and compare experimental
+            results across routing scenarios, enabling clearer interpretation of simulation outputs.</li>
+          <li>Designed and simulated drone routing models using ONE Simulator to benchmark multiple DTN routing
+            protocols, analyzing performance trade-offs across delivery probability, latency, and overhead metrics.</li>
+          <li>Prototyped distributed inference workflows on NVIDIA AGX Thor edge hardware and implemented IoT automation
+            in Node-Red with Arduino Nano; co-authored technical documentation on the findings.</li>
         </ul>
       </div>
     </section>
 
     <section id="education" class="section-fade">
-       <h2 class="section-heading comic-text"><span class="accent-red">II.</span> Education</h2>
-       <div class="comic-panel hover-web">
-          <div class="card-header">
-             <h3>Institute of Engineering and Management</h3>
-             <span class="date-badge">Expected 2028</span>
-          </div>
-          <h4 class="role">Bachelor of Technology in Computer Science & Business Systems</h4>
-          <p class="coursework">Focus: Algorithms, Cloud Computing, Database Architectures & IoT Systems.</p>
-       </div>
+      <h2 class="section-heading comic-text"><span class="accent-red">II.</span> Education</h2>
+      <div class="comic-panel hover-web">
+        <div class="card-header">
+          <h3>Institute of Engineering and Management</h3>
+          <span class="date-badge">Expected 2028</span>
+        </div>
+        <h4 class="role"><i class="fa-solid fa-graduation-cap"></i> B.Tech in Computer Science & Business Systems &bull;
+          Kolkata, India</h4>
+        <p class="coursework">Focus: SQL Pipelines, Database Architectures, Machine Learning, Data Analytics & Edge
+          Systems.</p>
+      </div>
     </section>
 
     <section id="projects" class="section-fade">
       <h2 class="section-heading comic-text"><span class="accent-blue">III.</span> Technical Projects</h2>
       <div class="grid-layout">
-        
-        <a href="#" class="comic-panel hover-web project-card">
-          <div class="project-indicator red"></div>
-          <h3>Truck Overloading Prevention</h3>
-          <span class="patent-badge"><i class="fa-solid fa-certificate"></i> Patent Applied</span>
-          <p>Innovated a hardware load-detection pipeline via Arduino Nano. Built high-accuracy real-time weight logic to prevent vehicle overload states.</p>
-        </a>
 
-        <a href="#" class="comic-panel hover-web project-card">
+        <div class="comic-panel hover-web project-card">
+          <div class="project-indicator red"></div>
+          <div class="project-header-top">
+            <h3>E-Commerce Customer Retention & Delivery Performance Analysis</h3>
+            <span class="project-badge red">Team Project</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/ShubhamShaw2006/ecommerce-retention-delivery-analysis" target="_blank"
+              class="project-link-badge"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+          <ul class="card-list">
+            <li>Collaborated on analyzing ~110K orders from a 9-table relational e-commerce dataset using PostgreSQL,
+              resolving one-to-many join issues across payments and reviews via aggregation CTEs.</li>
+            <li>Identified that 97% of customers never make a repeat purchase and quantified $243,560 in recoverable
+              revenue from 988 lapsed customers through RFM segmentation in Python; found late deliveries nearly halve
+              satisfaction (2.3/5 vs. 4.2/5).</li>
+            <li>Designed a 4-page interactive Power BI dashboard (Executive Overview, Customer Segments, Delivery
+              Performance, Recommendations) connected live to PostgreSQL.</li>
+          </ul>
+        </div>
+
+        <div class="comic-panel hover-web project-card">
           <div class="project-indicator blue"></div>
-          <h3>Hypervisor-Level Malware Detection</h3>
-          <p>Trained a robust Random Forest ensemble evaluating BODMAS PE features. Built reproducible Scikit-Learn pipelines achieving 96–99% classification accuracy.</p>
-        </a>
+          <div class="project-header-top">
+            <h3>Tech Layoffs Analysis: Risk Patterns 2020–2026</h3>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/ShubhamShaw2006/tech-layoffs-analysis" target="_blank"
+              class="project-link-badge"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="https://public.tableau.com/app/profile/shubham.shaw4256/viz/TechLayoffsAnalysisRiskPatterns2020-2026/TechLayoffsAnalysisRiskPatterns2020-2026" target="_blank"
+              class="project-link-badge"><i class="fa-solid fa-chart-line"></i> Live Dashboard</a>
+          </div>
+          <ul class="card-list">
+            <li>Designed a PostgreSQL schema and built a Python ETL pipeline unifying 4,500+ layoff events (Kaggle) with
+              live Yahoo Finance and U.S. BLS API data, handling mismatched date formats and inconsistent API responses.
+            </li>
+            <li>Found early-stage companies cut 48% of workforce on layoff vs. 15% for late-stage, and firms with under
+              $10M raised cut 61% of staff vs. 18% for those with over $500M raised.</li>
+            <li>Built composite risk-scoring SQL logic and published an interactive Tableau Public dashboard visualizing
+              risk patterns by industry, funding stage, and time.</li>
+          </ul>
+        </div>
 
-        <a href="#" class="comic-panel hover-web project-card">
+        <div class="comic-panel hover-web project-card">
           <div class="project-indicator red"></div>
-          <h3>AI-Driven IPL Match Forecasting</h3>
-          <p>Modeled predictive success of cricket teams via historical datasets. Integrated explainable AI layers to decode structural match advantages cleanly.</p>
-        </a>
+          <div class="project-header-top">
+            <h3>Hypervisor-Level Static Malware Detection</h3>
+          </div>
+          <div class="project-links">
+            <span class="project-link-badge"><i class="fa-solid fa-shield-halved"></i> Random Forest Ensemble</span>
+          </div>
+          <ul class="card-list">
+            <li>Built a static malware detection model on the BODMAS dataset using extracted PE header features,
+              achieving 96–99% accuracy, precision, recall, and F1-score on the held-out test set.</li>
+            <li>Implemented an optimized Random Forest ensemble in Scikit-learn with feature importance analysis to
+              identify the most discriminative PE attributes; developed reproducible training and evaluation pipelines.
+            </li>
+          </ul>
+        </div>
+
+        <div class="comic-panel hover-web project-card">
+          <div class="project-indicator blue"></div>
+          <div class="project-header-top">
+            <h3>Legal-Vani: AI-Powered Legal Assistance Platform</h3>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/ShubhamShaw2006/Legal-Vani" target="_blank" class="project-link-badge"><i
+                class="fa-brands fa-github"></i> GitHub</a>
+            <a href="https://legal-vani.vercel.app" target="_blank" class="project-link-badge"><i
+                class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+          </div>
+          <ul class="card-list">
+            <li>Built a multilingual, voice-first legal aid platform (Next.js, Tailwind CSS) supporting 12 Indian
+              languages, enabling users to file complaints by speaking in their native language.</li>
+            <li>Integrated Whisper AI and Groq LLMs to convert speech into structured legal advice with automated PDF
+              generation; architected secure Supabase (PostgreSQL) backend with JWT auth and Overpass API geolocation.
+            </li>
+          </ul>
+        </div>
+
       </div>
     </section>
 
     <section id="skills" class="section-fade">
-      <h2 class="section-heading comic-text"><span class="accent-red">IV.</span> Core Skills</h2>
+      <h2 class="section-heading comic-text"><span class="accent-red">IV.</span> Technical Skills</h2>
       <div class="skills-container">
-        
+
         <div class="comic-panel hover-web skill-category">
-           <h4>Languages</h4>
-           <div class="pill-group">
-             <span class="pill">Python</span><span class="pill">Java</span><span class="pill">C</span><span class="pill">MATLAB</span>
-           </div>
+          <h4>Languages</h4>
+          <div class="pill-group">
+            <span class="pill">Python</span><span class="pill">SQL</span><span class="pill">Java</span><span
+              class="pill">C</span><span class="pill">MATLAB</span>
+          </div>
         </div>
 
         <div class="comic-panel hover-web skill-category">
-           <h4>Libraries</h4>
-           <div class="pill-group">
-             <span class="pill">Scikit-Learn</span><span class="pill">Seaborn</span><span class="pill">Matplotlib</span>
-           </div>
+          <h4>Databases & Data Engineering</h4>
+          <div class="pill-group">
+            <span class="pill">PostgreSQL</span><span class="pill">Schema Design</span><span class="pill">ETL
+              Pipelines</span><span class="pill">REST APIs</span><span class="pill">CTEs</span><span class="pill">Window
+              Functions</span>
+          </div>
         </div>
 
         <div class="comic-panel hover-web skill-category">
-           <h4>Tools & Frameworks</h4>
-           <div class="pill-group">
-             <span class="pill">NVIDIA AGX Thor</span><span class="pill">Node-Red</span><span class="pill">Arduino</span><span class="pill">Linux</span><span class="pill">Git</span>
-           </div>
+          <h4>ML & Data Science</h4>
+          <div class="pill-group">
+            <span class="pill">Scikit-learn</span><span class="pill">Random Forest</span><span class="pill">Feature
+              Engineering</span><span class="pill">Model Evaluation</span><span class="pill">RFM Analysis</span><span
+              class="pill">Pandas</span><span class="pill">NumPy</span>
+          </div>
+        </div>
+
+        <div class="comic-panel hover-web skill-category">
+          <h4>BI & Visualization</h4>
+          <div class="pill-group">
+            <span class="pill">Power BI</span><span class="pill">Tableau</span><span class="pill">Seaborn</span><span
+              class="pill">Matplotlib</span>
+          </div>
+        </div>
+
+        <div class="comic-panel hover-web skill-category">
+          <h4>Tools & Platforms</h4>
+          <div class="pill-group">
+            <span class="pill">Git</span><span class="pill">Linux</span><span class="pill">Supabase</span><span
+              class="pill">Node-Red</span><span class="pill">ONE Simulator</span><span class="pill">NVIDIA AGX
+              Thor</span><span class="pill">Arduino Nano</span><span class="pill">Figma</span>
+          </div>
+        </div>
+
+        <div class="comic-panel hover-web skill-category">
+          <h4>Web & AI Frameworks</h4>
+          <div class="pill-group">
+            <span class="pill">Next.js</span><span class="pill">Tailwind CSS</span><span class="pill">Whisper
+              AI</span><span class="pill">Groq LLMs</span><span class="pill">Vercel</span>
+          </div>
         </div>
 
       </div>
     </section>
-    
+
     <div class="bottom-split">
       <section id="certifications" class="section-fade half-section">
-        <h2 class="section-heading sm comic-text">Certifications</h2>
+        <h2 class="section-heading sm comic-text"><span class="accent-blue">V.</span> Certifications</h2>
         <ul class="clean-list comic-panel hover-web">
-          <li>DSA – IIT Kharagpur</li>
-          <li>Advanced System Security – Univ. of Colorado</li>
-          <li>Python Engineering – Google</li>
-          <li>IoT Essentials – Smart Tech</li>
+          <li><i class="fa-solid fa-certificate icon-red"></i> Crash Course on Python – <strong>Google</strong></li>
+          <li><i class="fa-solid fa-certificate icon-red"></i> Data Structures and Algorithms using Java – <strong>IIT
+              Kharagpur (NPTEL)</strong></li>
+          <li><i class="fa-solid fa-certificate icon-red"></i> IoT Essentials for Professionals: Smart Tech & Automation
+          </li>
         </ul>
       </section>
 
       <section id="leadership" class="section-fade half-section">
-        <h2 class="section-heading sm comic-text">Leadership</h2>
+        <h2 class="section-heading sm comic-text"><span class="accent-red">VI.</span> Leadership & Activities</h2>
         <div class="comic-panel hover-web">
-          <h4>Secretary – IETE ISF (IEM)</h4>
-          <p>Coordinating robust technical events and managing the organization's official digital presence and outreach.</p>
+          <div class="leadership-item">
+            <h4><i class="fa-solid fa-users icon-red"></i> Secretary – IETE ISF (IEM)</h4>
+            <p>Coordinate the chapter’s flagship Pan-India Hackathon and manage its LinkedIn presence and technical
+              outreach.</p>
+          </div>
+          <div class="leadership-item"
+            style="margin-top: 1.5rem; padding-top: 1rem; border-top: 2px dashed rgba(255,255,255,0.2);">
+            <h4><i class="fa-solid fa-lightbulb icon-red"></i> Student Coordinator – IEM IEDC</h4>
+            <p>Support institute-wide innovation and entrepreneurship initiatives.</p>
+          </div>
         </div>
       </section>
     </div>
 
     <footer class="footer section-fade">
-      <p>Architected By Shubham Shaw</p>
+      <p>Architected By Shubham Shaw &bull; 🕷️ Spider-Man Portfolio</p>
     </footer>
 
   </main>
@@ -164,4 +288,5 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
   <script src="assets/js/script.js"></script>
 </body>
+
 </html>

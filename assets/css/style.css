@@ -178,33 +178,58 @@ section { padding-bottom: 6rem; }
   margin-bottom: 2rem;
   box-shadow: 4px 4px 0 var(--spidey-blue);
 }
+.hero-objective {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  background: rgba(17, 20, 36, 0.85);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  padding: 1.2rem 1.8rem;
+  border-radius: 8px;
+  box-shadow: 4px 4px 0 var(--spidey-red);
+}
+
 .hero-contact {
   display: flex;
-  gap: 1.5rem;
+  gap: 1.2rem;
   flex-wrap: wrap;
   justify-content: center;
 }
 .contact-link, .contact-text {
-  padding: 0.6rem 1.5rem;
+  padding: 0.6rem 1.2rem;
   border: 3px solid #fff;
   background: var(--panel-bg);
   font-weight: bold;
   font-family: var(--font-heading);
+  font-size: 0.95rem;
   text-transform: uppercase;
   box-shadow: 4px 4px 0 var(--spidey-red);
   transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 .contact-link:hover {
   transform: translate(-2px, -2px);
   box-shadow: 6px 6px 0 var(--spidey-blue);
   background: var(--spidey-red);
 }
+.resume-btn {
+  background: var(--spidey-red);
+  box-shadow: 4px 4px 0 var(--spidey-blue);
+}
+.resume-btn:hover {
+  background: var(--spidey-blue);
+  box-shadow: 6px 6px 0 #fff;
+}
 
 /* Comic Panels */
 .comic-panel {
   background: var(--panel-bg);
   border: 3px solid #fff;
-  padding: 2.5rem;
+  padding: 2.2rem;
   position: relative;
   box-shadow: 8px 8px 0 var(--spidey-red);
   transition: transform 0.2s, box-shadow 0.2s;
@@ -263,7 +288,8 @@ section { padding-bottom: 6rem; }
 .card-list li {
   position: relative;
   padding-left: 1.8rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.5;
 }
 .card-list li::before {
   content: '🕸';
@@ -275,20 +301,70 @@ section { padding-bottom: 6rem; }
 /* Grids */
 .grid-layout {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   gap: 2.5rem;
 }
 
+.project-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.5rem;
+}
 .project-card h3 {
   font-family: var(--font-heading);
-  font-size: 1.4rem;
-  margin: 1rem 0 0.5rem;
+  font-size: 1.35rem;
   text-transform: uppercase;
+  color: #fff;
+  flex: 1;
+  min-width: 200px;
 }
-.project-card p {
-  color: var(--text-muted);
-  font-weight: 600;
+.project-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-comic);
+  font-size: 0.95rem;
+  color: #fff;
+  background: var(--spidey-blue);
+  border: 2px solid #fff;
+  padding: 2px 10px;
+  box-shadow: 2px 2px 0 var(--spidey-red);
+  transform: rotate(-1deg);
 }
+.project-badge.red {
+  background: var(--spidey-red);
+  box-shadow: 2px 2px 0 var(--spidey-blue);
+}
+
+.project-links {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.project-link-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-comic);
+  font-size: 0.9rem;
+  color: #000;
+  background: #ffeb3b;
+  border: 2px solid #000;
+  padding: 2px 10px;
+  box-shadow: 2px 2px 0 #fff;
+  transition: transform 0.2s, background 0.2s;
+  letter-spacing: 0.5px;
+}
+.project-link-badge:hover {
+  background: #fff;
+  transform: translateY(-2px);
+}
+
 .project-indicator {
   width: 50px;
   height: 6px;
@@ -313,7 +389,7 @@ section { padding-bottom: 6rem; }
 /* Skills */
 .skills-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
 }
 .skill-category h4 {
@@ -321,6 +397,8 @@ section { padding-bottom: 6rem; }
   font-size: 1.5rem;
   margin-bottom: 1rem;
   letter-spacing: 1px;
+  color: var(--spidey-red);
+  text-shadow: 1px 1px 0 #fff;
 }
 .pill-group {
   display: flex;
@@ -331,7 +409,8 @@ section { padding-bottom: 6rem; }
   background: var(--bg-primary);
   border: 2px solid var(--spidey-blue);
   color: #fff;
-  padding: 0.3rem 1rem;
+  padding: 0.3rem 0.9rem;
+  font-size: 0.88rem;
   font-weight: bold;
   text-transform: uppercase;
   box-shadow: 3px 3px 0 var(--spidey-red);
